@@ -37,13 +37,16 @@ header p {
     font-style: italic;
 }
 
-p.normal-paragraph {
+p {
     font-size: 24px;
 }
 
-footer p {
+footer {
     background-color: #444;
-    color: #fff;
+}
+
+footer p {
     text-align: center;
     padding: 10px;
+    color: #fff;
 }
