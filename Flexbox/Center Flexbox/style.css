@@ -1,0 +1,13 @@
+body {
+    background-color:  rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    padding: 10em;
+}
+
+div {
+    padding: 0em 1.5em 2em 0.5em;
+    align-items: center;
+    box-shadow: 0 0 20px gray;
+    background-color:  rgb(255, 255, 255);
+}
