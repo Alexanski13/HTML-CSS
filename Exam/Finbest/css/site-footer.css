@@ -1,0 +1,29 @@
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    margin: 0;
+}
+
+.socials {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.socials li,
+.socials a {
+    display: block;
+}
+
+.socials li {
+    padding: 0 0.5em;
+}
+
+.socials a {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+}

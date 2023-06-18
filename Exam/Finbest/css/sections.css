@@ -1,0 +1,209 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+    background-color: #ADE2DF;
+    margin-top: -10px;
+}
+
+.banner h2 {
+    font-size: 3em;
+}
+
+.download {
+    padding-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.banner button {
+    padding: 1.2em 2em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+}
+
+.stats {
+    display: flex;
+    padding: 4em;
+    margin: 0 auto;
+}
+
+.stat-card {
+    text-align: center;
+    border-left: 1px solid lightgray;
+}
+
+.stat-card:last-child {
+    border-right: 1px solid lightgray;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 2em;
+    background-color: #ADE2DF;
+    align-items: center;
+    gap: 4em;
+    margin: 0 auto;
+}
+
+.desc img {
+    width: 35%;
+    border: 2px dashed #9ABDBB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3 {
+    font-size: 2.7em;
+}
+
+.content .sub-title {
+    padding-top: 7px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+.explore-pricing {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: auto;
+    margin-right: auto;
+    padding: 0 5px;
+}
+
+.pricing-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 2em;
+}
+
+.plan-card {
+    padding: 0.5em 1em;
+    border: 1px solid lightgray;
+}
+
+
+.plan-card .pricing {
+    border-bottom: 1px solid lightgray;
+}
+
+.pricing-title {
+    text-align: center;
+}
+
+.pricing-title h3 {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.pricing-title p {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #ADE2DF;
+    padding: 0.3em 1em;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.plans {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+ 
+}
+
+.plans h4 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+.plan-card ul {
+    list-style: none;
+}
+
+.plan-card ul li {
+    font-size: 9px;
+    padding: 0.4em 0;
+}
+
+.plan-card ul li:before {
+    content: '✓';
+}
+
+.plan-card span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.plan-card button {
+    background-color: #ADE2DF;
+    padding: 0.7em 1em;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+    margin-top: 38%;
+}
+
+.plan-card .get-plan {
+    margin-left: 14%;
+    width: 8em;
+}
+
+.plan-card .sub-title {
+    padding-top: 7px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+.plan-card:last-child {
+    background-color: #ADE2DF;
+}
+
+.plan-card .contact-us {
+    display: block;
+    padding: 0.7em 2em;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    margin-top: 11em;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+    background-color: #ADE2DF;
+    margin-top: -10px;
+}
+
+.get-started h2 {
+    font-size: 3em;
+}
+
+.get-started .download {
+    padding-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.get-started button {
+    padding: 1.2em 2em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+}
